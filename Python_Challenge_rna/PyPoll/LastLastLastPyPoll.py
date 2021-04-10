@@ -1,5 +1,3 @@
-
-
 import os
 import csv
 
@@ -38,21 +36,32 @@ with open('../results.txt','w') as export_file:
      export_file.write(f'{x: <40}  {candidates_votes.get(x)}\n')
  
 
-       
-
 
 /usr/local/bin/python3 "/Users/rnababikar/bootcamp/hw/python_challenge/HW03-Python 2/Instructions/PyPoll/Resources/PyPoll/LastLastPyPoll.py"
 (base) Rnas-iMac:Instructions rnababikar$ /usr/local/bin/python3 "/Users/rnababikar/bootcamp/hw/python_challenge/HW03-Python 2/Instructions/PyPoll/Resources/PyPoll/LastLastPyPoll.py"
 ../election_data.csv
 <class 'str'>
 File ../election_data.csv opened.
-<_csv.reader object at 0x7fe92f925900>
+<_csv.reader object at 0x7ff60ba25900>
 Election Results
 -------------------------
 Total Votes: 3521002
 -------------------------
 {'Candidate': 1, 'Khan': 2218231, 'Correy': 704200, 'Li': 492940, "O'Tooley": 105630}
 (base) Rnas-iMac:Instructions rnababikar$ 
+
+
+
+
+
+
+
+
+
+       
+
+
+
 
 
 
